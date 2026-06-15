@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Discount</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Use JSP Scriptlet and JSP Expression in Application</h1>
+        <div class="card">
+            <h2 class="form-title">Customer Discount</h2>
+            <form action="processCustomer.jsp" method="POST">
+                <div class="form-group">
+                    <label>Customer Code</label>
+                    <input type="text" name="customerCode" placeholder="Key-in customer code" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Quantity</label>
+                    <input type="number" name="quantity" placeholder="Key-in quantity" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Customer Type</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="customerType" value="1" checked> Normal Customer
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="customerType" value="2"> Privilege Customer
+                        </label>
+                    </div>
+                </div>
+
+                <div class="button-group">
+                    <button type="submit" class="btn btn-submit">Submit</button>
+                    <button type="reset" class="btn btn-cancel">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
