@@ -2,7 +2,7 @@
 
 <p>
 JSTL 1.2.jar link download <br>
-https://mvnrepository.com/artifact/jstl/jstl/1.2> <br><br>
+https://mvnrepository.com/artifact/javax.servlet/jstl/1.2 <br><br>
 
 JDBC Driver.jar link download <br>
 https://dev.mysql.com/downloads/connector/j/ <br>
