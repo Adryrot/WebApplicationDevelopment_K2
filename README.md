@@ -1,4 +1,4 @@
-<h2>Lab module 7 & 8</h2>
+<h2>Lab module</h2>
 
 <p>
 JSTL 1.2.jar link download <br>
